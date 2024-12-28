@@ -110,4 +110,5 @@ writeRegister(AS5600_BURN, 0x40); // Збереження CONF
 - Переконайтеся, що ліміт записів OTP не вичерпано.
 
 [Репозиторій бібліотеки яка використовувалась для налаштування](https://github.com/DanOvsyanka/AS5600)
+
 [Документація енкодера](https://github.com/DanOvsyanka/AS5600Configure/blob/main/AS5600.PDF)
