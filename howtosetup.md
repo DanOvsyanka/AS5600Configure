@@ -83,13 +83,12 @@ bool writeRegister(uint8_t reg, uint8_t value) {
     Wire.write(value);
     return (Wire.endTransmission() == 0);
 } 
-```
-
 // Збереження налаштувань
 writeRegister(AS5600_BURN, 0x80); // Збереження ZPOS і MANG
 writeRegister(AS5600_BURN, 0x40); // Збереження CONF
 
 > **Увага:** Збереження у OTP є незворотним. ZPOS і MANG можна записати до 3 разів, а CONF — лише 1 раз.
+```
 
 ### Тестування
 
